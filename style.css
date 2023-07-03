@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+/* MY CSS RESET */
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+min-height: 100vh;
+font-family: 'Lexend Deca', sans-serif;
+background-color: #F2F2F2;
+padding: 5.5rem 1.5rem;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+main {
+    max-width: 23.4375rem;
+    margin: 0 auto;
+}
+
+.sedans-container {
+    background-color: #E28625;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.suv-container {
+    background-color: #006971;
+}
+
+.luxury-container {
+    background-color: #004140;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.container {
+    padding: 3rem;
+}
+
+img {
+    margin-bottom: 2.1875rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 1.5625rem;
+}
+
+p {
+    font-size: 0.9375rem;
+    opacity: 0.75;
+    color: #FFFFFF;
+    margin-bottom: 1.5625rem;
+    max-width: 231px;
+}
+
+a {
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 9.125rem;
+    height: 3rem;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans-container a {
+    color: #E28625;
+}
+
+.suv-container a {
+    color: #006971;
+}
+
+.luxury-container a {
+   color: #004140;
+}
+
+@media only screen and (min-width: 1023px) {
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    max-width: 57.5rem;
+}
+
+.sedans-container {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0px;
+}
+
+.luxury-container {
+    background-color: #004140;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+p {
+    margin-bottom: 5.2188rem;
+}
+
+.sedans-container a:hover {
+    background-color: #E28625;
+    border: solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.suv-container a:hover {
+    background-color: #006971;
+    border: solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.luxury-container a:hover {
+    background-color: #004140;;
+    border: solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+    
+}
